@@ -52,6 +52,15 @@
     picomatch "^2.3.0"
     slash "^3.0.0"
 
+"@adonisjs/auth@^8.0.10":
+  version "8.0.10"
+  resolved "https://registry.yarnpkg.com/@adonisjs/auth/-/auth-8.0.10.tgz#7d89aac9a57a6ce79cfff58e1a45af5cda65cfef"
+  integrity sha512-jE2C0btUresr1pRV1P8NAehSJlebJ+TlrQp1p1ws52AQ5h4ayjzTniZBtq6pSgm5uv6TAEQ7Mw7ZfTOwaA8MBQ==
+  dependencies:
+    "@poppinss/hooks" "^3.0.5"
+    "@poppinss/utils" "^3.2.0"
+    luxon "^2.0.2"
+
 "@adonisjs/bodyparser@^8.0.1":
   version "8.0.1"
   resolved "https://registry.yarnpkg.com/@adonisjs/bodyparser/-/bodyparser-8.0.1.tgz#2ef7a60ddb7f68eee92269be8fc0fd1827bbfd9a"
@@ -65,6 +74,13 @@
     file-type "^16.5.3"
     fs-extra "^10.0.0"
     media-typer "^1.1.0"
+
+"@adonisjs/bouncer@^2.2.5":
+  version "2.2.5"
+  resolved "https://registry.yarnpkg.com/@adonisjs/bouncer/-/bouncer-2.2.5.tgz#4b166ad769f5c3868e6aaa284dd623daffc6b8f2"
+  integrity sha512-f060bMQwjJBAQ2pTtUrCbJ3n3/J3nQvzdrpWpWSEzdn8bdZALGh2R1nIhH0cVh8lMQuXzowo9ojxjWGFI0LfmQ==
+  dependencies:
+    "@poppinss/utils" "^3.2.0"
 
 "@adonisjs/config@^3.0.5":
   version "3.0.5"
@@ -3337,7 +3353,7 @@ lru-cache@^6.0.0:
   dependencies:
     yallist "^4.0.0"
 
-luxon@^2.0.1, luxon@^2.1.1, luxon@^2.3.0:
+luxon@^2.0.1, luxon@^2.0.2, luxon@^2.1.1, luxon@^2.3.0:
   version "2.3.0"
   resolved "https://registry.yarnpkg.com/luxon/-/luxon-2.3.0.tgz#bf16a7e642513c2a20a6230a6a41b0ab446d0045"
   integrity sha512-gv6jZCV+gGIrVKhO90yrsn8qXPKD8HYZJtrUDSfEbow8Tkw84T9OnCyJhWvnJIaIF/tBuiAjZuQHUt1LddX2mg==
